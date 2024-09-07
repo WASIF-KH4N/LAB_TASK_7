@@ -15,7 +15,7 @@ mov ah,1
 int 21h
 mov bl,2
 div bl
-cmp ah,0
+cmp ah,0            ;COMPARE
 
 JE IsEven           ;IF NUMBER IS EVEN THIS LINE IS IGNORED
 mov dx,10           ;SPACE
